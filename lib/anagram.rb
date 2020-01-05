@@ -22,6 +22,7 @@ def match(words)
         end
         i++
       end # end of sorted_words.each
+    end #if 
     else
       matched = false
     end #end else
