@@ -9,11 +9,11 @@ def initialize(word)
 end
 
 def match(words)
-  sorted_word = @word.split().sort
+  sorted_word = @word.split(//).sort
   sorted_words = []
   matches = []
   words.each do |wrd| 
-    sorted_words  = wrd.split().sort 
+    sorted_words  = wrd.split(//).sort 
     matched = true
     if (sorted_words.length == sorted_word.length)
       i = 0
