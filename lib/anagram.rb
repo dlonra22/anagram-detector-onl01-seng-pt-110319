@@ -20,7 +20,6 @@ def match(words)
       sorted_words.each do |chr|
         if sorted_word[i] != chr 
           matched = false
-          binding.pry
         end
         i+=1
       end # end sorted_words.each
