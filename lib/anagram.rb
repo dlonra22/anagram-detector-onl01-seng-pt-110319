@@ -14,7 +14,7 @@ def match(words)
   words.each do |wrd| 
     sorted_words  = wrd.split.sort 
     matched = true
-    if sorted_words.length == sorted_word.length
+    if (sorted_words.length == sorted_word.length)
       i = 0
       sorted_words.each do |chr|
         if sorted_word[i] != chr 
