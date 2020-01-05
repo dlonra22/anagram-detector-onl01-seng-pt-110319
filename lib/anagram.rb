@@ -21,9 +21,10 @@ def match(words)
           matched = false
         end
         i+=1
-      end #
-    end #if sorted_words.length
-    else matched = false
+      end # end sorted_words.each
+    else 
+      matched = false
+    end #end if sorted_words.length
     if matched == true
       matches << wrd
     end
