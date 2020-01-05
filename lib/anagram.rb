@@ -20,8 +20,8 @@ def match(words)
         if sorted_word[i] != chr 
           matched = false
         end
-        i++
-      end # end of sorted_words.each
+        i+=1
+      end #
     end #if sorted_words.length
     else
       matched = false
